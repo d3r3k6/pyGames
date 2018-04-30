@@ -22,8 +22,8 @@ def printBoard(board):
 	print(board['mL'] + '|' + board['mC'] + '|' + board['mR'])
 	print('-+-+-')
 	print(board['bL'] + '|' + board['bC'] + '|' + board['bR'])
-	print('-+-+-')
-printBoard(theBoard)
+
+
 
 #The following code is for the user interface
 
@@ -37,4 +37,4 @@ for i in range(9):
 		turn = 'O'
 	else:
 		turn = 'X'
-	printBoard(theBoard)		
+printBoard(theBoard)
